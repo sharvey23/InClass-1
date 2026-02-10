@@ -1,12 +1,16 @@
-.left-img-col {
+.product-card {
   display: flex;
+}
+
+.left-img-col {
   align-items: center;
   justify-content: center;
+  flex: 1;
 }
 
 .right-info-col {
-  display: flex;
   font-family: sans-serif;
+  flex: 1;
 }
 
 .right-info-col h5 {
@@ -16,5 +20,27 @@
 .right-info-col p {
   display: flex;
   justify-content: center;
-  text-align: left
+  text-align: left;
+}
+
+.available-colors {
+  display: flex;
+}
+
+.black-color-container {
+  background-color: black;
+}
+.red-color-container {
+  background-color: red;
+}
+.white-color-container {
+  background-color: white;
+}
+
+.price {
+  display: flex;
+}
+
+.buy-btn {
+  border-radius: 10%;
 }
